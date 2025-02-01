@@ -140,10 +140,10 @@
 
         sym_layer {
             bindings = <
-&trans  &kp EXCL  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp ESC    &kp LBKT      &kp LS(LBRC)  &kp LS(LPAR)   &kp LS(TILDE)    &kp LS(CARET)  &kp LS(RPAR)  &kp LS(RBRC)  &kp RBKT  &kp GRAVE  &trans
+&trans  &kp MINUS  &kp LS(STAR)  &kp EQUAL     &kp LS(UNDER)  &kp LS(DLLR)     &kp LS(POUND)  &trans        &trans        &trans    &trans     &trans
+&trans  &trans     &trans        &trans        &trans         &trans           &trans         &trans        &trans        &trans    &trans     &trans
+                                 &trans        &trans         &trans           &trans         &trans        &trans
             >;
         };
 
